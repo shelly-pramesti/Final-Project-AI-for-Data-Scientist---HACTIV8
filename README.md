@@ -51,4 +51,4 @@ Follow these steps to set up and run the chatbot locally:
 
 ### Notes
 - The API key in `app.py` has been removed for security (`"YOUR_API_KEY_HERE"` placeholder).
-- For live demo, contact me to run locally, or deploy via Streamlit Cloud using the GitHub repo: [https://github.com/yourusername/gemini-chatbot-project](https://github.com/yourusername/gemini-chatbot-project).
+- For live demo, contact me to run locally, or deploy via Streamlit Cloud using the GitHub repo: [https://github.com/shelly-pramesti/gemini-chatbot-project](https://github.com/shelly-pramesti/gemini-chatbot-project).
