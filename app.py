@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure the API key
-genai.configure(api_key="AIzaSyDP5uvxNy6j8wmeUBWE8-ecrMr8NsNRYQ8")  # Replace with your actual Gemini API key
+genai.configure(api_key="...")  # Replace with your actual Gemini API key
 
 # Set up the model
 model = genai.GenerativeModel('gemini-2.5-flash')
@@ -44,4 +44,5 @@ if prompt := st.chat_input("Type your message here..."):
     # Add assistant response to history
     st.session_state.messages.append({"role": "assistant", "content": response_text})
     # Refresh to update chat history
+
     st.rerun()
